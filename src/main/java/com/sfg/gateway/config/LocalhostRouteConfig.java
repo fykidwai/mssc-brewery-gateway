@@ -13,7 +13,8 @@ public class LocalhostRouteConfig {
         return builder.routes()
             .route("beer-service",
                 r -> r.path("/api/v1/beer*", "/api/v1/beer/*", "/api/v1/beerUpc/*").uri("http://localhost:9090"))
-            .route("order-service", r -> r.path("/api/v1/customers/**").uri("http://localhost:9091")).build();
+            .route("order-service", r -> r.path("/api/v1/customers/**").uri("http://localhost:9091"))
+            .route("inventory-service", r -> r.path("/api/v1/beer/*/inventory").uri("http://localhost:9092")).build();
     }
 
 }
