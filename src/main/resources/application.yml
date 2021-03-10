@@ -1,0 +1,11 @@
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: debug
+server:
+  port: 8080
+spring:
+  application:
+    name: sfg-brewery-gateway
