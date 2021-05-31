@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.github.fykidwai</groupId>
     <artifactId>mssc-brewery-gateway</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5-SNAPSHOT</version>
     <name>mssc-brewery-gateway</name>
     <description>Brewery Gateway</description>
     <developers>
@@ -24,7 +24,7 @@
         <url>https://github.com/fykidwai/mssc-brewery-gateway</url>
         <connection>scm:git:https://github.com/fykidwai/mssc-brewery-gateway</connection>
         <developerConnection>scm:git:https://fykidwai@github.com/fykidwai/mssc-brewery-gateway</developerConnection>
-        <tag>v0.0.4</tag>
+        <tag>HEAD</tag>
     </scm>
     <issueManagement>
         <url>https://github.com/fykidwai/mssc-brewery-gateway/issues</url>
